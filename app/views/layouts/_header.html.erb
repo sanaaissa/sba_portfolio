@@ -1,5 +1,16 @@
-<header>
-  <nav class="navbar navbar-default">
-    
+
+  <header class="navbar navbar-default">
+    <nav class="container-fluid">
+        <nav class="navbar-header">
+          <img src="/assets/portfolio-logo.jpg" class="img-thumbnail" alt="logo" width="100" height="80"/>
+        </nav>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Sign up", new_registration_path(Admin) %></li>
+      </ul>
+    </nav>
   </nav>
+
 </header>
